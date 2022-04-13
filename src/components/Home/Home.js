@@ -21,8 +21,8 @@ const Home = () => {
     </div>
   </div>
 
-  <div class="h-80 flex flex-row max-h-80">
-    <img src={officePic} className='object-fill basis-1/2 w-1/2'/>
+  <div class="h-96 flex flex-row max-h-96">
+    <img src={Hands} className='object-fill basis-1/2 w-1/2'/>
     <div className='basis-1/2 w-full text-center align-text-center'> 
       {/* Center text in a div */}
       <div className='flex flex-col h-full items-center justify-center px-2'>
