@@ -4,26 +4,38 @@ import LogoHoriz from '../../images/LogoHoriz.png'
 import LogoSolo from '../../images/LogoSolo.png'
 import { useState, useEffect } from 'react'
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  useEffect(() => {
-  window.addEventListener("scroll", handleScroll);
-  return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  // window.addEventListener("scroll", handleScroll);
+  // return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
   
-  const handleScroll = () => {
-    window.onwheel = e => {
-      if(e.deltaY >= 7){
-        // Scrolling Down with mouse
-        var tagLine = document.getElementById("wholeNav");
-        tagLine.setAttribute("style", "top:-670px");
-      } else if (e.deltaY < -5) {
-        // Scrolling Up with mouse
-        var tagLine = document.getElementById("wholeNav");
-        tagLine.setAttribute("style", "top:0px");
-      }
+  // const handleScroll = () => {
+  //   window.onwheel = e => {
+  //     if(e.deltaY >= 7){
+  //       // Scrolling Down with mouse
+  //       var tagLine = document.getElementById("wholeNav");
+  //       tagLine.setAttribute("style", "top:-670px");
+  //     } else if (e.deltaY < -5) {
+  //       // Scrolling Up with mouse
+  //       var tagLine = document.getElementById("wholeNav");
+  //       tagLine.setAttribute("style", "top:0px");
+  //     }
+  //   }
+  // };
+
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+  
+    // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
+    if (currentScrollPos > 20) {
+      // I am using 'display' instead of 'top':
+      document.getElementById("wholeNav").style.display = "none";
+    } else {
+      document.getElementById("wholeNav").style.display = "initial";
     }
-  };
+  }
 
   return (
 <nav class="bg-[#1C5367] border-b-2 border-[#C4A962] fixed w-full top-0 z-50" id='wholeNav'>
