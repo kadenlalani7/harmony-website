@@ -18,8 +18,8 @@ const Navbar = () => {
         <div class="hidden sm:block sm:ml-6 items-center">
           <div class="flex space-x-4 h-full items-center">
             <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Home</a>
-            <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
-            <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
+            <a href="/about_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
+            <a href="/contact_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
             
 
           </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             {/* <a href="/signup" class="text-[#FDD017] hover:bg-[#C4A962] hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sign Up for Trial</a> */}
-            <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Harmony Trials</a>
+            <a href="/sign_up_for_trial" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
         <div class="ml-3 relative">
         </div>
       </div>
