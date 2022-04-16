@@ -44,11 +44,11 @@ const Home = () => {
   
   </div>
 
-  <div class="h-[40rem] max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md animate-fade3 bg-black">
+  <div class="md:h-[40rem] md:max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md animate-fade3 bg-white">
     {/* <img src={officePic} className='w-screen h-full'/> */}
-    <div className='w-full h-full flex flex-row items-center justify-center rounded-md'>
+    <div className='w-full h-full flex flex-col md:flex-row items-center justify-center rounded-md gap-4'>
 
-      <div id='left' class='basis-1/2 h-full w-full pr-14 '>
+      <div id='left' class='basis-1/2 h-full w-full px-2 md:pr-14'>
         <div class='h-full w-full border-[3px] border-[#1C5367] border-opacity-95 rounded-md p-4 pt-8 bg-[#C4A962]'>
 
           <p className='text-center text-bold px-14 py-10 text-[#1C5367]/95 tracking-wider leading-loose first-letter:text-5xl last-letter:text-5xl'>
@@ -79,7 +79,7 @@ const Home = () => {
   </div>
 
   <div class="mx-auto w-screen flex flex-col justify-center items-center border-b-[3px] border-[#C4A962]">
-    <h1 class='text-center text-3xl tracking-wider text-[#C4A962] px-3 py-2 text-lg font-light pt-3 border-[#C4A962] bg-[#1C5367] w-full pb-3 border-y-[3px]'>Read more on what's happening</h1>
+    <h1 class='text-center text-3xl tracking-wider text-[#C4A962] px-3 py-2 font-light pt-3 border-[#C4A962] bg-[#1C5367] w-full pb-3 border-y-[3px]'>Read more on what's happening</h1>
     <PostsBar/>
   </div>
 </div>
