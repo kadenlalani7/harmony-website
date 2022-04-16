@@ -2,9 +2,31 @@ import React from 'react'
 import Logo from '../../images/logo.png'
 import LogoHoriz from '../../images/LogoHoriz.png'
 import LogoSolo from '../../images/LogoSolo.png'
+import { useState, useEffect } from 'react'
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
+  const handleScroll = () => {
+    window.onwheel = e => {
+      if(e.deltaY >= 7){
+        // Scrolling Down with mouse
+        var tagLine = document.getElementById("wholeNav");
+        tagLine.setAttribute("style", "top:-670px");
+      } else if (e.deltaY < -5) {
+        // Scrolling Up with mouse
+        var tagLine = document.getElementById("wholeNav");
+        tagLine.setAttribute("style", "top:0px");
+      }
+    }
+  };
+
   return (
-<nav class="bg-[#1C5367] border-b-2 border-[#C4A962] sticky top-0 z-50">
+<nav class="bg-[#1C5367] border-b-2 border-[#C4A962] fixed w-full top-0 z-50" id='wholeNav'>
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
 
@@ -20,6 +42,7 @@ const Navbar = () => {
             <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Home</a>
             <a href="/about_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
             <a href="/contact_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
+            <a href="/sign_up_for_trial" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
             
 
           </div>
@@ -27,7 +50,6 @@ const Navbar = () => {
       </div>
       <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             {/* <a href="/signup" class="text-[#FDD017] hover:bg-[#C4A962] hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sign Up for Trial</a> */}
-            <a href="/sign_up_for_trial" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
         <div class="ml-3 relative">
         </div>
       </div>
@@ -35,14 +57,12 @@ const Navbar = () => {
   </div>
 
   <div class="sm:hidden" id="mobile-menu">
-    <div class="px-2 pt-2 pb-3 space-y-1">
-      <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+    <div class="px-2 pt-2 pb-3 space-y-[1px]">
+      <a href="/" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Home</a>
+      <a href="/about_us" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
+      <a href="/contact_us" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
+      <a href="/sign_up_for_trial" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
 
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Us</a>
-
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
-
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Sign Up For Trial</a>
     </div>
   </div>
 </nav>

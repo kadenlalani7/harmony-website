@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import {route}
 function App() {
+
   return (
     <div className="bg-white h-max font-body bg-[#1C5367]/50">
       <Navbar />        

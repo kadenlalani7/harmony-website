@@ -11,7 +11,7 @@ const Home = () => {
 
     {/* <img src={officePic} className='w-screen h-full'/> */}
     <div className='mx-auto w-[78rem] h-1/2 flex flex-col items-center justify-center rounded-lg'>
-      <h1 className='text-center text-7xl text-[#C4A962] font-extrabold pb-4 tracking-tight'>
+      <h1 className='text-center lg:text-7xl md:text-7xl text-2xl text-[#C4A962] font-extrabold pb-4 tracking-tight'>
       Harmony United Research
       </h1>
       <p className='text-center text-base px-4 text-[#C4A962]'>
@@ -21,8 +21,8 @@ const Home = () => {
     </div>
   </div>
 
-  <div class="h-96 flex flex-row max-h-96 max-w-[84rem] mx-auto animate-fade2 bg-white">
-    <div class='pr-14 basis-1/2 w-1/2'>
+  <div class="md:h-96 lg:h-96 flex flex-col md:flex-row max-w-[84rem] mx-auto animate-fade2 bg-white gap-4">
+    <div class='sm:pr-14 basis-1/2 w-full mx-auto items-center'>
 
     <img src={Hands} className='object-fill w-full h-full border-[3px] border-[#1C5367] rounded-md ' alt='Hands'/>
     </div>
@@ -44,7 +44,7 @@ const Home = () => {
   
   </div>
 
-  <div class="h-[40rem] max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md animate-fade3 bg-white">
+  <div class="h-[40rem] max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md animate-fade3 bg-black">
     {/* <img src={officePic} className='w-screen h-full'/> */}
     <div className='w-full h-full flex flex-row items-center justify-center rounded-md'>
 
