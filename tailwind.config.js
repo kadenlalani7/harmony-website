@@ -10,6 +10,7 @@ module.exports = {
         fade2: 'fadeOut 2s ease-in-out',
         fade3: 'fadeOut 2.5s ease-in-out',
         fadeIn: 'fadeIn 5s ease-in-out',
+        animatedBackground: 'animatedBackground 6s linear infinite alternate',
       },
 
       // that is actual animation
@@ -22,6 +23,13 @@ module.exports = {
           '100%': { backgroundColor: theme('colors.inherit') },
           '0%': { backgroundColor: theme('colors.tansparent') },
         },
+
+        animatedBackground: {
+          '0%': {backgroundPosition: -10},
+
+          '100%': {backgroundPosition: 10},
+
+        }
         
       }),
       
