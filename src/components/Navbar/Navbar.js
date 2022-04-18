@@ -4,26 +4,6 @@ import LogoHoriz from '../../images/LogoHoriz.png'
 import LogoSolo from '../../images/LogoSolo.png'
 import { useState, useEffect } from 'react'
 const Navbar = () => {
-  // const [show, setShow] = useState(false);
-
-  // useEffect(() => {
-  // window.addEventListener("scroll", handleScroll);
-  // return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-  
-  // const handleScroll = () => {
-  //   window.onwheel = e => {
-  //     if(e.deltaY >= 7){
-  //       // Scrolling Down with mouse
-  //       var tagLine = document.getElementById("wholeNav");
-  //       tagLine.setAttribute("style", "top:-670px");
-  //     } else if (e.deltaY < -5) {
-  //       // Scrolling Up with mouse
-  //       var tagLine = document.getElementById("wholeNav");
-  //       tagLine.setAttribute("style", "top:0px");
-  //     }
-  //   }
-  // };
 
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;

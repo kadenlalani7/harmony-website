@@ -3,8 +3,8 @@ import Profile from './Profile'
 import Logo from '../../images/logo.png'
 const About = () => {
   return (
-    <div class='w-screen h-max bg-white flex flex-col'>
-      <div class="py-16 bg-white animate-fade1">  
+    <div class='w-screen h-max bg-white flex flex-col gap-1'>
+      <div class="py-16 bg-white animate-fade1 pt-24">  
         <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-16">
               <div class="md:w-5/12 lg:w-5/12">
@@ -18,8 +18,8 @@ const About = () => {
             </div>
         </div>
       </div>
-    <div class='flex flex-col h-full items-center justify-center pt-10 pb-4 border-t-[3px] border-[#C4A962] text-7xl tracking-widest text-[#1C5367] animate-fade2'>Meet The Team</div>
-      <div class='px-16 grid grid-cols-3 gap-4 py-6 h-full animate-fade3'>
+    <div class='flex flex-col h-full items-center justify-center pt-10 pb-4 border-t-[3px] border-[#C4A962] text-7xl tracking-widest text-[#1C5367] animate-fade2 underline underline-offset-2 text-center'>Meet The Team</div>
+      <div class='px-16 grid grid-cols-3 gap-9 py-6 h-full animate-fade3'>
         <Profile/>
         <Profile/>
         <Profile/>

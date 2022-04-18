@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-<section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 animate-fade1">
+<section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 animate-fade1 p-6">
    <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4">
          <div class="w-full lg:w-1/2 xl:w-6/12 px-4">

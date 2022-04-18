@@ -11,6 +11,7 @@ module.exports = {
         fade3: 'fadeOut 2.5s ease-in-out',
         fadeIn: 'fadeIn 5s ease-in-out',
         animatedBackground: 'animatedBackground 6s linear infinite alternate',
+        circleToSqaure: 'sqtToCirc 0.6s ease-out'
       },
 
       // that is actual animation
@@ -19,6 +20,36 @@ module.exports = {
           '0%': { opacity: 0.2 },
           '100%': { opacity: 1 },
         },
+
+        sqtToCirc: {
+          '0%':  {
+            borderRadius:'100%',
+            // background:black,
+            // transform:rotate(0deg),
+          },
+          '25%':  {
+            borderRadius:'75%',
+            // background:black,
+            // transform:rotate(45deg),
+          },
+          '50%':  {
+            borderRadius:'60%',
+            // background:black,
+            // transform:rotate(25%),
+          },
+          '75%':  { 
+            borderRadius:'30%',
+            // background:black,
+            // transform:rotate(180deg),
+          },
+          '100%': {  
+            borderRadius:0,
+            // background:black,
+            // transform:rotate(360deg),
+          }
+        },
+
+        
         fadeIn: {
           '100%': { backgroundColor: theme('colors.inherit') },
           '0%': { backgroundColor: theme('colors.tansparent') },

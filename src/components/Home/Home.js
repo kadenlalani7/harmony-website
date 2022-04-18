@@ -6,7 +6,7 @@ import PostsBar from './PostsBar'
 const Home = () => {
   return (
 <div class="h-max flex flex-col mx-auto space-y-6 bg-white">
-  <div class="mx-auto h-[30rem] max-h-[30rem] w-screen bg-cover bg-center bg-doctor-background animate-animatedBackground bg-no-repeat bg-cover bg-opacity-60 flex items-center justify-center border-b-[3px] border-b-[#C4A962] animate-fade1 ">
+  <div class="mx-auto h-[30rem] max-h-[30rem] w-screen bg-cover bg-center bg-doctor-background animate-animatedBackground bg-no-repeat bg-opacity-60 flex items-center justify-center border-b-[3px] border-b-[#C4A962] animate-fade1 ">
     <div class='h-full w-full backdrop-blur-sm mx-auto flex items-center justify-center bg-[#1C5367]/25'>
 
     {/* <img src={officePic} className='w-screen h-full'/> */}

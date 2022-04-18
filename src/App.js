@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact'
 import Trial from './components/Trial/Trial';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/SmallFooter';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import {route}
