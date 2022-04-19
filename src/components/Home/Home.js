@@ -37,7 +37,7 @@ const Home = () => {
             Apirl 2022 - May 2022
           </p>
           <p className='text-white opacity-80 pb-8'>This is a description of the trial. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button href="/sign_up_for_trial" class="text-white bg-gradient-to-r from-[#C4A962] to-[#eecb74] hover:opacity-80 px-10 py-2 rounded-full text-lg tracking-wider font-medium visited:border-b-2" aria-current="page">Sign Up</button>
+          <button href="/sign_up_for_trial" class="text-white bg-gradient-to-r from-[#C4A962] to-[#eecb74] hover:scale-105 drop-shadow-md shadow-cla-violate w-1/2 h-14 rounded-lg" aria-current="page">Sign Up</button>
         </div>
       </div>
     </div>

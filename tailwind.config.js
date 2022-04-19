@@ -11,7 +11,8 @@ module.exports = {
         fade3: 'fadeOut 2.5s ease-in-out',
         fadeIn: 'fadeIn 5s ease-in-out',
         animatedBackground: 'animatedBackground 6s linear infinite alternate',
-        circleToSqaure: 'sqtToCirc 0.6s ease-out'
+        circleToSqaure: 'sqtToCirc 0.6s ease-out',
+        borderFade: 'fadeBorder 0.6s ease-out',
       },
 
       // that is actual animation
@@ -19,6 +20,10 @@ module.exports = {
         fadeOut: {
           '0%': { opacity: 0.2 },
           '100%': { opacity: 1 },
+        },
+        fadeBorder: {
+          '0%': { borderOpacity: 0.2 },
+          '100%': { borderOpacity: 1 },
         },
 
         sqtToCirc: {

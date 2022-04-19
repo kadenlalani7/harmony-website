@@ -27,7 +27,7 @@ const Navbar = () => {
           <img class="block lg:hidden h-12 w-auto" src={LogoSolo} alt="Harmony United LLC Logo"></img>
           {/* <p class="block lg:hidden h-12 w-auto">Harmony United LLC</p>  */}
           <img class="hidden lg:block h-12 w-auto" src={LogoSolo} alt="Harmony United LLC Logo"></img>
-          <p class="text-center max-h-12 text-[#C4A962] text-sm font-light underline-offset-1">Harmony United <br/>Research LLC®</p> 
+          <p class="text-center max-h-12 text-[#C4A962] text-sm font-light underline-offset-1 cursor-default">Harmony United <br/>Research LLC®</p> 
         </div>
         <div class="hidden sm:block sm:ml-6 items-center">
           <div class="flex space-x-4 h-full items-center">

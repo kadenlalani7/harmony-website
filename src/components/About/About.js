@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </div>
     <div class='flex flex-col h-full items-center justify-center pt-10 pb-4 border-t-[3px] border-[#C4A962] text-7xl tracking-widest text-[#1C5367] animate-fade2 underline underline-offset-2 text-center'>Meet The Team</div>
-      <div class='px-16 grid grid-cols-3 gap-9 py-6 h-full animate-fade3'>
+      <div class='px-16 grid grid-cols-3 gap-16 py-6 h-full animate-fade3'>
         <Profile/>
         <Profile/>
         <Profile/>
