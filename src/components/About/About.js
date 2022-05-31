@@ -1,5 +1,7 @@
 import React from 'react'
 import Profile from './Profile'
+import ProfMiguel from './Miguel/Profile'
+import ProfArthur from './Arthur/Profile'
 import Logo from '../../images/logo.png'
 const About = () => {
   return (
@@ -8,7 +10,7 @@ const About = () => {
         <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-16">
               <div class="md:w-5/12 lg:w-5/12">
-                <img src={Logo} class='h-full w-full rounded-2xl' alt="image" loading="lazy" width="" height=""/>
+                <img src={Logo} class='h-full w-full rounded-2xl' alt="logo" loading="lazy" width="" height=""/>
               </div>
               <div class="md:7/12 lg:w-6/12">
                 <h2 class="text-2xl text-[#1C5367] font-bold md:text-4xl">Harmony United is dedicated to ___ ____ ___ _____ _______</h2>
@@ -20,8 +22,8 @@ const About = () => {
       </div>
     <div class='flex flex-col h-full items-center justify-center pt-10 pb-4 border-t-[3px] border-[#C4A962] text-7xl tracking-widest text-[#1C5367] animate-fade2 underline underline-offset-2 text-center'>Meet The Team</div>
       <div class='px-16 grid grid-cols-3 gap-16 py-6 h-full animate-fade3'>
-        <Profile/>
-        <Profile/>
+        <ProfMiguel/>
+        <ProfArthur/>
         <Profile/>
         <Profile/>
         <Profile/>

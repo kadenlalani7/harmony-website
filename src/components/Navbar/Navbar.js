@@ -4,21 +4,30 @@ import LogoHoriz from '../../images/LogoHoriz.png'
 import LogoSolo from '../../images/LogoSolo.png'
 import { useState, useEffect } from 'react'
 const Navbar = () => {
-
+  // document.getElementById("wholeNav").style.display = "none";
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
+    var screenH = window.innerHeight;
+    console.log(screenH);
+    // console.log(screenH)
+
+    // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //   document.getElementById("wholeNav").style.top = "-50px";
+    // } else {
+    //   document.getElementById("wholeNav").style.top = "0px";
+    // }
   
     // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
-    if (currentScrollPos > 20) {
+    if (currentScrollPos > -1) {
       // I am using 'display' instead of 'top':
-      document.getElementById("wholeNav").style.display = "none";
-    } else {
       document.getElementById("wholeNav").style.display = "initial";
+    } else {
+      document.getElementById("wholeNav").style.display = "none";
     }
   }
 
   return (
-<nav class="bg-[#1C5367] border-b-2 border-[#C4A962] fixed w-full top-0 z-50" id='wholeNav'>
+<nav class="bg-[#1C5367] border-b-2 border-[#C4A962] fixed w-full top-0 z-50 hidden" id='wholeNav'>
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
 

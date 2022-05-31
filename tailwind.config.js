@@ -10,12 +10,12 @@ module.exports = {
         fade2: 'fadeOut 2s ease-in-out',
         fade3: 'fadeOut 2.5s ease-in-out',
         fadeIn: 'fadeIn 5s ease-in-out',
-        animatedBackground: 'animatedBackground 6s linear infinite alternate',
+        animatedBackground: 'backgroundZoom 10s linear infinite alternate',
         circleToSqaure: 'sqtToCirc 0.6s ease-out',
         borderFade: 'fadeBorder 0.6s ease-out',
       },
 
-      // that is actual animation
+      // that is actual animation NOTE wE MODIFY HTML DOM PROPERTIES https://www.w3schools.com/jsref/prop_style_backgroundsize.asp
       keyframes: theme => ({
         fadeOut: {
           '0%': { opacity: 0.2 },
@@ -53,7 +53,6 @@ module.exports = {
             // transform:rotate(360deg),
           }
         },
-
         
         fadeIn: {
           '100%': { backgroundColor: theme('colors.inherit') },
@@ -61,16 +60,29 @@ module.exports = {
         },
 
         animatedBackground: {
-          '0%': {backgroundPosition: -10},
+          '0%': {backgroundPosition: -20},
 
-          '100%': {backgroundPosition: 10},
+          '100%': {backgroundPosition: -10},
 
+        },
+
+        SlowZoom: {
+          '0%': {transform: 'scale(1,1)'},
+          '50%': {transform: 'scale(1.1,1.1)'},
+          '100%': {transform: 'scale(1,1)'},
+        },
+
+        backgroundZoom: {
+          '0%': {backgroundSize: '100%'},
+          '50%': {backgroundSize: '105%'},
+          '100%': {backgroundSize: '100%'},
         }
+
         
       }),
       
       backgroundImage: {
-        'doctor-background': "url('./images/doctor.jpg')",
+        'doctor-background': "url('./images/cover2bw.jpeg')",
         'footer-texture': "url('/img/footer-texture.png')",
       },
 
