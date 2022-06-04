@@ -12,11 +12,11 @@ import ProfileKL from './components/About/Kaden/ProfilePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import {route}
-function App() {
+const App = () => {
 
   return (
     <div className="bg-white h-max font-body ">
-      <Navbar />        
+      <Navbar id='nav' />        
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<Home/>} />

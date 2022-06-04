@@ -21,7 +21,7 @@ const Home = () => {
             Harmony<br/>United
           </h1>
           <h1 className='w-full text-left lg:leading-[11rem] lg:text-[8rem] md:text-7xl text-2xl text-[#C4A962] font-semibold tracking-tight drop-shadow-xl pl-3'>
-            Research Group
+            Research
           </h1>
           {/* <p className='text-left text-base px-4 text-[#C4A962]'>
           Providing direct access to known patients with their trusted physicians and research practice management solutions. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -92,13 +92,13 @@ const Home = () => {
       {/* Center text in a div */}
       <div className='max-w-[84rem] flex flex-col h-full items-center justify-center px-2'>
         <div className='h-full w-full p-4 flex flex-col items-center justify-center px-8'>
-          <h1 className='text-center text-[#C4A962] text-5xl font-semibold pb-6 pt-2 tracking-wide'>
-            Benefits of Joining a Trial
+          <h1 className='text-center text-[#C4A962] sm:text-3xl lg:text-5xl font-extrabold pb-6 pt-2 tracking-wide'>
+            Clinical Trial Benefits
           </h1>
           {/* benfits section */}
           <div class='flex flex-row w-full pb-6'>
             <div class='basis-1/2'>
-              <ul class='list-disc text-[#C4A962] text-lg'>
+              <ul class='list-disc text-[#C4A962] text-xl'>
                 <li class='pb-4'>You may have the chance to help others get a better treatment for their health problems in the future</li>
                 <li class='text-white/80 pb-4'>Treatment from experts</li>
                 <li class='pb-4'>Free or low-cost treatment</li>
@@ -156,8 +156,8 @@ const Home = () => {
   </div>
 
   {/* Section 4: More articles to read*/}
-  <div class="mx-auto w-screen flex flex-col justify-center items-center border-b-[3px] border-[#C4A962] overflow-y-scroll" id='section4'>
-    <h1 class='text-center text-3xl tracking-wider text-[#C4A962] px-3 py-2 font-light pt-3 border-[#C4A962] bg-[#1C5367] w-full pb-3 border-y-[3px]'>Read more on what's happening</h1>
+  <div class="mx-auto w-max flex flex-col justify-center items-center border-b-[3px] border-[#C4A962]" id='section4'>
+    <h1 class='text-center text-3xl tracking-wider text-[#C4A962] px-3 py-2 font-light pt-3 border-[#C4A962] bg-[#1C5367] w-screen pb-3 border-y-[3px]'>Read more on what's happening</h1>
     <PostsBar/>
   </div>
 </div>

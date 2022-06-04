@@ -2,6 +2,7 @@ import React from 'react'
 import Profile from './Profile'
 import ProfMiguel from './Miguel/Profile'
 import ProfArthur from './Arthur/Profile'
+import ProfKaden from './Kaden/Profile'
 import Logo from '../../images/logo.png'
 const About = () => {
   return (
@@ -24,10 +25,7 @@ const About = () => {
       <div class='px-16 grid grid-cols-3 gap-16 py-6 h-full animate-fade3'>
         <ProfMiguel/>
         <ProfArthur/>
-        <Profile/>
-        <Profile/>
-        <Profile/>
-        <Profile/>
+        <ProfKaden/>
       </div>
 
     </div>

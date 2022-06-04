@@ -12,7 +12,7 @@ const Profile = () => {
           />
         </a>
         <h5 class="text-xl font-medium leading-tight mb-2 text-[#C4A962] cursor-text">Miguel Gutierez</h5>
-        <p class="text-[#C4A962]/75">Additional Info</p>
+        <p class="text-[#C4A962]/75">Vice President</p>
         <p class="text-[#C4A962]/75">Contact Link</p>
     </div>
   )

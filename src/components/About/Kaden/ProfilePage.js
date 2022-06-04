@@ -1,5 +1,5 @@
 import React from 'react'
-import Kaden from '../../../images/arthurSquare.png'
+import Kaden from '../../../images/kadenSqaure.png'
 const ProfilePage = () => {
   return (
         <div class="container mx-auto my-5 p-5 pt-14 h-full">
@@ -11,12 +11,12 @@ const ProfilePage = () => {
                         <div class="image overflow-hidden">
                             <img class="h-auto w-full mx-auto"
                                 src={Kaden}
-                                alt="Miguel Gutierez profile"/>
+                                alt="Kaden Lalani profile"/>
                         </div>
-                        <h1 class="text-[#C4A962] font-bold text-xl my-1">Miguel Gutierez</h1>
-                        <h3 class="text-[#C4A962] font-semibold text-lg leading-6">Vice President</h3>
-                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Miguel Gutierez is currently
-                        the vice president of Harmony United Research, helping ot conduct clinical trials and patients.</p>
+                        <h1 class="text-[#C4A962] font-bold text-xl my-1">Kaden Lalani</h1>
+                        <h3 class="text-[#C4A962] font-semibold text-lg leading-6">Engineer</h3>
+                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Kaden Lalani helps with all thinks technology at Harmony United Reasearch 
+                        to help push forward the team.</p>
                     </div>
                     {/* <!-- End of profile card --> */}
                     <div class="my-4"></div>
@@ -44,11 +44,11 @@ const ProfilePage = () => {
                             <div class="grid md:grid-cols-2 text-sm">
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">First Name</div>
-                                    <div class="px-4 py-2">Miguel</div>
+                                    <div class="px-4 py-2">Kaden</div>
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Last Name</div>
-                                    <div class="px-4 py-2">Gutierez</div>
+                                    <div class="px-4 py-2">Lalani</div>
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Gender</div>
@@ -61,7 +61,7 @@ const ProfilePage = () => {
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Email.</div>
                                     <div class="px-4 py-2">
-                                        <a class="text-blue-800" href="mailto:mgutierrez@harmonyunitedresearch.com">mgutierrez@harmonyunitedresearch.com</a>
+                                        <a class="text-blue-800" href="mailto:klalani@harmonyunitedresearch.com">klalani@harmonyunitedresearch.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ const ProfilePage = () => {
                                 </div>
                                 <ul class="list-inside space-y-2">
                                     <li>
-                                        <div class="text-[#1C5367]">Bachelors in Cellular and Molecular Biochemistry at UTEP</div>
+                                        <div class="text-[#1C5367]">Bachelors of Science in Computer Science at Arizona State University</div>
                                         <div class="text-[#1C5367] text-xs">2022</div>
                                     </li>
                                 </ul>
