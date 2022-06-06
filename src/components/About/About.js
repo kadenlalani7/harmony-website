@@ -1,5 +1,4 @@
 import React from 'react'
-import Profile from './Profile'
 import ProfMiguel from './Miguel/Profile'
 import ProfArthur from './Arthur/Profile'
 import ProfKaden from './Kaden/Profile'

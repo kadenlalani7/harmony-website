@@ -1,22 +1,39 @@
 import React from 'react'
 import LogoSolo from '../../images/LogoSolo.png'
 const Navbar = () => {
+  let oldValue=0;
+  let newValue=0;
+  let downCount = 0;
 
   // document.getElementById("wholeNav").style.display = "none";
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     var screenH = window.innerHeight;
     var url = window.location.href;
-  
-    // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
-    if (currentScrollPos < screenH+20 && url === 'http://localhost:3000/') 
+    newValue = window.pageYOffset;
+    if (oldValue < newValue) {
+      downCount = 0;
+
+    } else if (oldValue > newValue) {
+      downCount++;
+    }
+
+    if (downCount > 20){
+      document.getElementById("wholeNav").style.display = "none";
+    }
+    else if (window.pageYOffset === 0 && url !== 'http://localhost:3000/') {
+      document.getElementById("wholeNav").style.display = "initial";
+    }
+    else if (currentScrollPos < screenH+20 && url === 'http://localhost:3000/') 
     {
-      // I am using 'display' instead of 'top':
       document.getElementById("wholeNav").style.display = "none";
     } else {
       document.getElementById("wholeNav").style.display = "initial";
     }
+    oldValue = newValue;
+
   }
+
 
   return (
 <nav class="bg-[#1C5367] border-b-2 border-[#C4A962] fixed w-full top-0 z-40" id='wholeNav'>

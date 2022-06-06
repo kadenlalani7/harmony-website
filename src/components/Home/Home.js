@@ -17,10 +17,12 @@ const Home = () => {
       <div class='h-[95%] w-screen flex flex-row'>
         <div class='h-[90%] w-2/3 mx-auto items-center justify-center'>
         <div className='mx-auto w-full align-middle flex flex-col items-center justify-center rounded-lg h-full'>
-          <h1 className='w-full text-left lg:leading-[11rem] lg:text-[10rem] md:text-7xl text-2xl text-[#C4A962] font-semibold tracking-tight drop-shadow-xl pl-3'>
+          <h1 className='w-full text-left lg:leading-[11rem] 
+                        text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] text-[#C4A962] 
+                        font-semibold tracking-tight drop-shadow-xl pl-3'>
             Harmony<br/>United
           </h1>
-          <h1 className='w-full text-left lg:leading-[11rem] lg:text-[8rem] md:text-7xl text-2xl text-[#C4A962] font-semibold tracking-tight drop-shadow-xl pl-3'>
+          <h1 className='w-full text-left lg:leading-[11rem] text-5xl sm:text-6xl md:text-7xl lg:text-[8rem] text-[#C4A962] font-semibold tracking-tight drop-shadow-xl pl-3'>
             Research
           </h1>
           {/* <p className='text-left text-base px-4 text-[#C4A962]'>
@@ -29,8 +31,8 @@ const Home = () => {
         </div>
         </div>
         <div class='flex h-full w-1/3 mx-auto items-center justify-center'>
-        <a href="/sign_up_for_trial" class="text-[#C4A962] text-2xl font-bold border-2 border-[#C4A962] hover:scale-105 drop-shadow-md w-[55%] h-14 rounded-full
-                                              text-center flex items-center justify-center" aria-current="page">Participate in a Trial</a>
+        <a href="/sign_up_for_trial" class="border-2 border-[#C4A962] hover:scale-105 drop-shadow-md w-[55%] rounded-full
+                                            " aria-current="page"><p class='p-2 text-[#C4A962] sm:text-md md:text-lg lg:text-2xl font-bold text-center flex items-center justify-center'>Participate in a Trial </p></a>
         </div>
       </div>
 
@@ -88,7 +90,7 @@ const Home = () => {
   {/* Section 2: Benefits of a trial */}
   <div class="md:h-96 lg:h-full flex flex-col md:flex-row mx-auto gap-4 py-3" id='section2'>
 
-    <div className='w-screen bg-[#1C5367]/95 flex flex-col h-full items-center py-8'> 
+    <div className='w-screen bg-[#1C5367]/95 flex flex-col h-full items-center pt-8 pb-2'> 
       {/* Center text in a div */}
       <div className='max-w-[84rem] flex flex-col h-full items-center justify-center px-2'>
         <div className='h-full w-full p-4 flex flex-col items-center justify-center px-8'>
@@ -96,7 +98,7 @@ const Home = () => {
             Clinical Trial Benefits
           </h1>
           {/* benfits section */}
-          <div class='flex flex-row w-full pb-6'>
+          <div class='flex flex-row w-full pb-8'>
             <div class='basis-1/2'>
               <ul class='list-disc text-[#C4A962] text-xl'>
                 <li class='pb-4'>You may have the chance to help others get a better treatment for their health problems in the future</li>

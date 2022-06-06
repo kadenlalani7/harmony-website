@@ -61,6 +61,20 @@ const PostsBar = () => {
                 </div>
               </div>
             </div>
+              <div class="p-4 md:w-96">
+              <div class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden border-2 border-[#1C5367]">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src='https://imgs.search.brave.com/prw7ovYNUbguVAXhR3EYSX7pFIlZ7ngw9-bjXVDCV10/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy5w/dWJsaWNkb21haW5w/aWN0dXJlcy5uZXQv/cGljdHVyZXMvNDAw/MDAvdmVsa2EvaGFw/cHktY2hpbGQtMTM2/MTEwNzM4M0lvOS5q/cGc' alt="blog"/>
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Children</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-600 mb-3">Childhood obesity</h1>
+                  <p class="leading-relaxed mb-3">As childhood obesity is associated with premature death in adults, a research is critical. This review focuses on the recent proceedings concerning genesis, prevention, and treatment.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a href='https://pubmed.ncbi.nlm.nih.gov/20871401/' rel="noreferrer" target="_blank" class="bg-gradient-to-r from-[#1C5367] to-[#2e819f] hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg text-white">Learn more</a>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

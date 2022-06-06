@@ -2,7 +2,7 @@ import React from 'react'
 
 const Trial = () => {
   return (
-<section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 animate-fade1">
+<section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 animate-fade1 p-8">
    <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4">
          <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
@@ -35,22 +35,26 @@ const Trial = () => {
          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
                <form>
-                  <div class="mb-6">
-                     <input
-                        type="text"
-                        placeholder="Your Name"
-                        class="
-                        w-full
-                        rounded
-                        py-3
-                        px-[14px]
-                        text-body-color text-base
-                        border border-[f0f0f0]
-                        outline-none
-                        focus-visible:shadow-none
-                        focus:border-primary
-                        "
-                        />
+                  {/* First and Last Name */}
+                  <div class='flex flex-row w-full space-x-6'>
+
+                     <div class="mb-6">
+                        <input
+                           type="text"
+                           placeholder="First Name"
+                           class="w-full rounded py-3 px-[14px] text-[#1C5367] text-base 
+                           border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                           />
+                     </div>
+                     <div class="mb-6">
+                        <input
+                           type="text"
+                           placeholder="Last Name"
+                           class="w-full rounded py-3 px-[14px] text-[#1C5367] text-base
+                           border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                           />
+                     </div>
+
                   </div>
                   <div class="mb-6">
                      <input
@@ -61,13 +65,64 @@ const Trial = () => {
                         rounded
                         py-3
                         px-[14px]
-                        text-body-color text-base
+                        text-[#1C5367] text-base
                         border border-[f0f0f0]
                         outline-none
                         focus-visible:shadow-none
                         focus:border-primary
+                        placeholder:text-[#1C5367]/75
                         "
                         />
+                  </div>
+                  <div class="mb-6">
+                     <input type='date' class='w-full form-input
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                        placeholder=''
+                     />
+                  </div>
+                  <div class="mb-6 w-full">
+
+                     <input type='radio' value='Male' name='gender' class=' 
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                        placeholder=''
+                        />
+                     <label for='Male' class='mr-10'>Male</label>
+                     <input type='radio' value='Female' name='gender' class=' 
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                     />
+                     <label for='Female' class='mr-10'>Female</label>
+                     <input type='radio' value='Other' name='gender' class=' 
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                     />
+                     <label for='Other'>Other</label>
                   </div>
                   <div class="mb-6">
                      <input
@@ -78,7 +133,7 @@ const Trial = () => {
                         rounded
                         py-3
                         px-[14px]
-                        text-body-color text-base
+                        text-[#1C5367] text-base
                         border border-[f0f0f0]
                         outline-none
                         focus-visible:shadow-none
@@ -95,7 +150,7 @@ const Trial = () => {
                         rounded
                         py-3
                         px-[14px]
-                        text-body-color text-base
+                        text-[#1C5367] text-base
                         border border-[f0f0f0]
                         resize-none
                         outline-none

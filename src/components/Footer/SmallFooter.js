@@ -13,26 +13,26 @@ const SmallFooter = () => {
             justify-center
             md:justify-start
           ">
-          <img class="w-6 mr-3 " src={LogoSolo}/>
+          <img class="w-6 mr-3 " alt='logo' src={LogoSolo}/>
           Harmony United Research LLC
         </h6>
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 text-[#C4A962] ">About</a>
+                <a href="about_us" class="mr-4 hover:underline md:mr-6 text-[#C4A962] ">About</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Privacy Policy</a>
+                <a href="legal" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Privacy Policy</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Licensing</a>
+                <a href="careers" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Careers</a>
             </li>
             <li>
-                <a href="#" class="hover:underline text-[#C4A962]">Contact</a>
+                <a href="contact_us" class="hover:underline text-[#C4A962]">Contact</a>
             </li>
         </ul>
     </div>
     <hr class="my-6 border-[#C4A962] border-[1px] sm:mx-auto lg:my-8" />
-    <span class="block text-sm text-[#C4A962] sm:text-center">© 2022 <a href="https://flowbite.com" class="hover:underline">Harmony United Research LLC®</a>. All Rights Reserved.
+    <span class="block text-sm text-[#C4A962] sm:text-center">© 2022 <a href="https://" class="hover:underline">Harmony United Research LLC®</a>. All Rights Reserved.
     </span>
 </footer>
   )
