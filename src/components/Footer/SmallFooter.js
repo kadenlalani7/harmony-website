@@ -20,14 +20,14 @@ const SmallFooter = () => {
             <li>
                 <a href="about_us" class="mr-4 hover:underline md:mr-6 text-[#C4A962] ">About</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="legal" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Privacy Policy</a>
-            </li>
+            </li> */}
             <li>
                 <a href="careers" class="mr-4 hover:underline md:mr-6 text-[#C4A962]">Careers</a>
             </li>
             <li>
-                <a href="contact_us" class="hover:underline text-[#C4A962]">Contact</a>
+                <a href="sign_up_for_trial" class="hover:underline text-[#C4A962]">Sign Up</a>
             </li>
         </ul>
     </div>

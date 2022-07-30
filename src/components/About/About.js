@@ -13,9 +13,9 @@ const About = () => {
                 <img src={Logo} class='h-full w-full rounded-2xl' alt="logo" loading="lazy" width="" height=""/>
               </div>
               <div class="md:7/12 lg:w-6/12">
-                <h2 class="text-2xl text-[#1C5367] font-bold md:text-4xl">Harmony United is dedicated to ___ ____ ___ _____ _______</h2>
-                <p class="mt-6 text-[#C4A962]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
-                <p class="mt-4 text-[#C4A962]"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+                <h2 class="text-2xl text-[#1C5367] font-bold md:text-4xl">Harmony United is dedicated to helping improve the health and well-being of society</h2>
+                <p class="mt-6 text-[#C4A962]">When we first started we set out on the mission to help progress medicine and bring possibly life saving treatments and drugs to our patients. We care about the safety of our patients and work towards imporving their lives risk free and earlier than anywhere else.</p>
+                <p class="mt-4 text-[#C4A962]">Our team aims to bring the highest quality treatment and care to our pateints. We are dedicated to helping you.</p>
               </div>
             </div>
         </div>

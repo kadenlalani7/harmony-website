@@ -25,21 +25,20 @@ const Trial = () => {
                   Sign Up to see if you can particpate in a trial
                </h2>
                <p class="text-base text-[#C4A962] leading-relaxed mb-9">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                  adiqua minim veniam quis nostrud exercitation ullamco
+               Harmony United is a clinical trial reserach group founded in El Paso, Texas. We perform trials over an array of different areas including but not limited to Behaviors and Mental Disorders, Blood and Lymph Conditions, and Digestive System Diseases.
                </p>
 
             </div>
          </div>
          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-               <form>
+               <form action="https://formsubmit.co/klalani@harmonyunitedresearch.com" method="POST">
                   {/* First and Last Name */}
                   <div class='flex flex-row w-full space-x-6'>
 
                      <div class="mb-6">
                         <input
+                           name='First Name'
                            type="text"
                            placeholder="First Name"
                            class="w-full rounded py-3 px-[14px] text-[#1C5367] text-base 
@@ -48,6 +47,7 @@ const Trial = () => {
                      </div>
                      <div class="mb-6">
                         <input
+                           name='Last Name'
                            type="text"
                            placeholder="Last Name"
                            class="w-full rounded py-3 px-[14px] text-[#1C5367] text-base
@@ -57,25 +57,10 @@ const Trial = () => {
 
                   </div>
                   <div class="mb-6">
-                     <input
-                        type="email"
-                        placeholder="Your Email"
-                        class="
-                        w-full
-                        rounded
-                        py-3
-                        px-[14px]
-                        text-[#1C5367] text-base
-                        border border-[f0f0f0]
-                        outline-none
-                        focus-visible:shadow-none
-                        focus:border-primary
-                        placeholder:text-[#1C5367]/75
-                        "
-                        />
-                  </div>
-                  <div class="mb-6">
-                     <input type='date' class='w-full form-input
+                     <input 
+                     name='Date'
+                     type='date' 
+                     class='w-full form-input
                         rounded
                         py-3
                         px-[14px]
@@ -89,7 +74,7 @@ const Trial = () => {
                   </div>
                   <div class="mb-6 w-full">
 
-                     <input type='radio' value='Male' name='gender' class=' 
+                     <input type='radio' value='Male' name='Gender' class=' 
                         rounded
                         py-3
                         px-[14px]
@@ -100,8 +85,8 @@ const Trial = () => {
                         focus:border-primary'
                         placeholder=''
                         />
-                     <label for='Male' class='mr-10'>Male</label>
-                     <input type='radio' value='Female' name='gender' class=' 
+                     <label for='Male' class='mr-10 ml-2 text-[#1C5367]/90 text-base'>Male</label>
+                     <input type='radio' value='Female' name='Gender' class=' 
                         rounded
                         py-3
                         px-[14px]
@@ -111,7 +96,7 @@ const Trial = () => {
                         focus-visible:shadow-none
                         focus:border-primary'
                      />
-                     <label for='Female' class='mr-10'>Female</label>
+                     <label for='Female' class='mr-10 ml-2 text-[#1C5367]/90 text-base'>Female</label>
                      <input type='radio' value='Other' name='gender' class=' 
                         rounded
                         py-3
@@ -122,7 +107,7 @@ const Trial = () => {
                         focus-visible:shadow-none
                         focus:border-primary'
                      />
-                     <label for='Other'>Other</label>
+                     <label for='Other' class='mr-10 ml-2 text-[#1C5367]/90 text-base'>Other</label>
                   </div>
                   <div class="mb-6">
                      <input
@@ -141,10 +126,10 @@ const Trial = () => {
                         "
                         />
                   </div>
-                  <div class="mb-6">
-                     <textarea
-                        rows="6"
-                        placeholder="Your Message"
+                  <div class="mb-4">
+                     <input
+                        type="text"
+                        placeholder="Your Email"
                         class="
                         w-full
                         rounded
@@ -152,12 +137,155 @@ const Trial = () => {
                         px-[14px]
                         text-[#1C5367] text-base
                         border border-[f0f0f0]
-                        resize-none
                         outline-none
                         focus-visible:shadow-none
                         focus:border-primary
                         "
-                        ></textarea>
+                        />
+                  </div>
+                  <div class="mb-4">
+                  <label class='mb-2 text-[#1C5367]/90 text-base'>Areas of Interest<br/></label>
+                     <select
+                      name='Interest area #1'
+                      placeholder='Interest Area'
+                      class='w-full form-input
+                      rounded
+                      py-3
+                      px-[14px]
+                      text-[#1C5367]/90 text-base
+                      border border-[f0f0f0]
+                      outline-none
+                      focus-visible:shadow-none
+                      focus:border-primary
+                      mb-2'>
+                        <option>No Preference</option>
+                        <option>	Behaviors and Mental Disorders </option>
+                        <option>	Blood and Lymph Conditions </option>
+                        <option>	Digestive System Diseases </option>
+                        <option>	Diseases and Abnormalities at or Before Birth </option>
+                        <option>	Disorders of Environmental Origin </option>
+                        <option>	Ear, Nose, and Throat Diseases </option>
+                        <option>	Eye Diseases </option>
+                        <option>	Gland and Hormone Related Diseases</option>
+                        <option>	Heart and Blood Diseases</option>
+                        <option>	Immune System Diseases</option>
+                        <option>	Infections</option>
+                        <option>	Mouth and Tooth Diseases</option>
+                        <option>	Musculoskeletal Diseases</option>
+                        <option>	Neoplasms</option>
+                        <option>	Nervous System Diseases</option>
+                        <option>	Nutritional and Metabolic Diseases</option>
+                        <option>	Occupational Diseases</option>
+                        <option>	Respiratory Tract (Lung and Bronchial) Diseases</option>
+                        <option>	Skin and Connective Tissue Diseases </option>
+                        <option>	Substance Related Disorders</option>
+                        <option>	Symptoms and General Pathology </option>
+                        <option>	Urinary Tract, Sexual Organs, and Pregnancy Conditions</option>
+                        <option>	Wounds and Injuries </option>
+                     </select>
+                     <select
+                      name='Interest area #2'
+                      placeholder='Interest Area'
+                      class='w-full form-input
+                      rounded
+                      py-3
+                      px-[14px]
+                      text-[#1C5367]/90 text-base
+                      border border-[f0f0f0]
+                      outline-none
+                      focus-visible:shadow-none
+                      focus:border-primary
+                      mb-2'>
+                        <option>No Preference</option>
+                        <option>	Behaviors and Mental Disorders </option>
+                        <option>	Blood and Lymph Conditions </option>
+                        <option>	Digestive System Diseases </option>
+                        <option>	Diseases and Abnormalities at or Before Birth </option>
+                        <option>	Disorders of Environmental Origin </option>
+                        <option>	Ear, Nose, and Throat Diseases </option>
+                        <option>	Eye Diseases </option>
+                        <option>	Gland and Hormone Related Diseases</option>
+                        <option>	Heart and Blood Diseases</option>
+                        <option>	Immune System Diseases</option>
+                        <option>	Infections</option>
+                        <option>	Mouth and Tooth Diseases</option>
+                        <option>	Musculoskeletal Diseases</option>
+                        <option>	Neoplasms</option>
+                        <option>	Nervous System Diseases</option>
+                        <option>	Nutritional and Metabolic Diseases</option>
+                        <option>	Occupational Diseases</option>
+                        <option>	Respiratory Tract (Lung and Bronchial) Diseases</option>
+                        <option>	Skin and Connective Tissue Diseases </option>
+                        <option>	Substance Related Disorders</option>
+                        <option>	Symptoms and General Pathology </option>
+                        <option>	Urinary Tract, Sexual Organs, and Pregnancy Conditions</option>
+                        <option>	Wounds and Injuries </option>
+                     </select>
+                     <select
+                      name='Interest area #3'
+                      placeholder='Interest Area'
+                      class='w-full form-input
+                      rounded
+                      py-3
+                      px-[14px]
+                      text-[#1C5367]/90 text-base
+                      border border-[f0f0f0]
+                      outline-none
+                      focus-visible:shadow-none
+                      focus:border-primary
+                      mb-2'>
+                        <option>No Preference</option>
+                        <option>	Behaviors and Mental Disorders </option>
+                        <option>	Blood and Lymph Conditions </option>
+                        <option>	Digestive System Diseases </option>
+                        <option>	Diseases and Abnormalities at or Before Birth </option>
+                        <option>	Disorders of Environmental Origin </option>
+                        <option>	Ear, Nose, and Throat Diseases </option>
+                        <option>	Eye Diseases </option>
+                        <option>	Gland and Hormone Related Diseases</option>
+                        <option>	Heart and Blood Diseases</option>
+                        <option>	Immune System Diseases</option>
+                        <option>	Infections</option>
+                        <option>	Mouth and Tooth Diseases</option>
+                        <option>	Musculoskeletal Diseases</option>
+                        <option>	Neoplasms</option>
+                        <option>	Nervous System Diseases</option>
+                        <option>	Nutritional and Metabolic Diseases</option>
+                        <option>	Occupational Diseases</option>
+                        <option>	Respiratory Tract (Lung and Bronchial) Diseases</option>
+                        <option>	Skin and Connective Tissue Diseases </option>
+                        <option>	Substance Related Disorders</option>
+                        <option>	Symptoms and General Pathology </option>
+                        <option>	Urinary Tract, Sexual Organs, and Pregnancy Conditions</option>
+                        <option>	Wounds and Injuries </option>
+                     </select>
+                  </div>
+
+                  <div class="mb-6">
+                  <label class='mb-2 text-[#1C5367]/90 text-base'>Select Prefered Method of Contact<br/></label>
+                  <input type='radio' value='Phone' name='Contact' class=' 
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                        placeholder=''
+                        />
+                     <label for='Phone' class='mr-10 ml-2 text-[#1C5367]/90 text-base'>Phone</label>
+                     <input type='radio' value='Email' name='Contact' class=' 
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-[#1C5367]/90 text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary'
+                     />
+                     <label for='Email' class='mr-10 ml-2 text-[#1C5367]/90 text-base'>Email</label>
                   </div>
                   <div>
                      <button
@@ -173,7 +301,7 @@ const Trial = () => {
                         hover:bg-opacity-90
                         "
                         >
-                     Send Message
+                     Sumbit
                      </button>
                   </div>
                </form>

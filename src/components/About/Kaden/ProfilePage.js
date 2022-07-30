@@ -14,8 +14,8 @@ const ProfilePage = () => {
                                 alt="Kaden Lalani profile"/>
                         </div>
                         <h1 class="text-[#C4A962] font-bold text-xl my-1">Kaden Lalani</h1>
-                        <h3 class="text-[#C4A962] font-semibold text-lg leading-6">Engineer</h3>
-                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Kaden Lalani helps with all thinks technology at Harmony United Reasearch 
+                        <h3 class="text-[#C4A962] font-semibold text-lg leading-6">Director of IT</h3>
+                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Kaden Lalani helps with all thinks technology at Harmony United Research 
                         to help push forward the team.</p>
                     </div>
                     {/* <!-- End of profile card --> */}
@@ -55,8 +55,8 @@ const ProfilePage = () => {
                                     <div class="px-4 py-2">Male</div>
                                 </div>
                                 <div class="grid grid-cols-2">
-                                    <div class="px-4 py-2 font-semibold">Contact No.</div>
-                                    <div class="px-4 py-2">+11 998001001</div>
+                                    {/* <div class="px-4 py-2 font-semibold">Contact No.</div>
+                                    <div class="px-4 py-2">+11 998001001</div> */}
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Email.</div>

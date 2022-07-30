@@ -51,7 +51,7 @@ const Navbar = () => {
           <div class="flex space-x-4 h-full items-center">
             <a href="/" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Home</a>
             <a href="/about_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
-            <a href="/contact_us" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
+            <a href="/careers" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Careers</a>
             <a href="/sign_up_for_trial" class="text-[#C4A962] px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
             
 
@@ -70,7 +70,7 @@ const Navbar = () => {
     <div class="px-2 pt-2 pb-3 space-y-[1px]">
       <a href="/" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Home</a>
       <a href="/about_us" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">About Us</a>
-      <a href="/contact_us" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Contact Us</a>
+      <a href="/careers" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Careers</a>
       <a href="/sign_up_for_trial" class="text-[#C4A962] block px-3 py-2 text-lg font-light hover:underline underline-offset-4 active:text-opacity-50" aria-current="page">Clinical Trials</a>
 
     </div>

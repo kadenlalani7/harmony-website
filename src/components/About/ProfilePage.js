@@ -13,7 +13,7 @@ const ProfilePage = () => {
                                 src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp"
                                 alt=""/>
                         </div>
-                        <h1 class="text-[#C4A962] font-bold text-xl leading-8 my-1">Miguel Gutierez</h1>
+                        <h1 class="text-[#C4A962] font-bold text-xl leading-8 my-1">Miguel Gutierrez</h1>
                         <h3 class="text-[#C4A962]/80 font-lg text-semibold leading-6">Owner at Her Company Inc.</h3>
                         <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Lorem ipsum dolor sit amet
                             consectetur adipisicing elit.

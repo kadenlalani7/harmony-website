@@ -12,7 +12,7 @@ const ProfilePage = () => {
                         <div class="image overflow-hidden">
                             <img class="h-auto w-full mx-auto"
                                 src={Arthur}
-                                alt="Miguel Gutierez profile"/>
+                                alt="Miguel Gutierrez profile"/>
                         </div>
                         <h1 class="text-[#C4A962] font-bold text-xl my-1">Arthur Imai</h1>
                         <h3 class="text-[#C4A962] font-semibold text-lg leading-6">President</h3>
@@ -56,8 +56,8 @@ const ProfilePage = () => {
                                     <div class="px-4 py-2">Male</div>
                                 </div>
                                 <div class="grid grid-cols-2">
-                                    <div class="px-4 py-2 font-semibold">Contact No.</div>
-                                    <div class="px-4 py-2">+11 998001001</div>
+                                    {/* <div class="px-4 py-2 font-semibold">Contact No.</div>
+                                    <div class="px-4 py-2">+11 998001001</div> */}
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Email.</div>
@@ -123,7 +123,7 @@ const ProfilePage = () => {
                                 <ul class="list-inside space-y-2">
                                     <li>
                                         <div class="text-[#1C5367]">Bachelor of Science in Biology at University of Texas at El Paso</div>
-                                        <div class="text-[#1C5367] text-xs">20??</div>
+                                        <div class="text-[#1C5367] text-xs">2015</div>
                                     </li>
                                     <li>
                                         <div class="text-[#1C5367]">President of Harmony United Research LLC</div>

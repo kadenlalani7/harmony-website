@@ -11,11 +11,11 @@ const ProfilePage = () => {
                         <div class="image overflow-hidden">
                             <img class="h-auto w-full mx-auto"
                                 src={Miguel}
-                                alt="Miguel Gutierez profile"/>
+                                alt="Miguel Gutierrez profile"/>
                         </div>
-                        <h1 class="text-[#C4A962] font-bold text-xl my-1">Miguel Gutierez</h1>
+                        <h1 class="text-[#C4A962] font-bold text-xl my-1">Miguel Gutierrez</h1>
                         <h3 class="text-[#C4A962] font-semibold text-lg leading-6">Vice President</h3>
-                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Miguel Gutierez is currently
+                        <p class="text-sm text-[#1C5367] hover:text-[#1C5367]/80 leading-6">Miguel Gutierrez is currently
                         the vice president of Harmony United Research, helping ot conduct clinical trials and patients.</p>
                     </div>
                     {/* <!-- End of profile card --> */}
@@ -48,15 +48,15 @@ const ProfilePage = () => {
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Last Name</div>
-                                    <div class="px-4 py-2">Gutierez</div>
+                                    <div class="px-4 py-2">Gutierrez</div>
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Gender</div>
                                     <div class="px-4 py-2">Male</div>
                                 </div>
                                 <div class="grid grid-cols-2">
-                                    <div class="px-4 py-2 font-semibold">Contact No.</div>
-                                    <div class="px-4 py-2">+11 998001001</div>
+                                    {/* <div class="px-4 py-2 font-semibold">Contact No.</div>
+                                    <div class="px-4 py-2">+11 998001001</div> */}
                                 </div>
                                 <div class="grid grid-cols-2">
                                     <div class="px-4 py-2 font-semibold">Email.</div>

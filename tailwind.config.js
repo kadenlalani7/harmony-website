@@ -1,4 +1,6 @@
 module.exports = {
+  important: true,
+
   content: ['./src/components/Navbar/Navbar.js',
             './src/components/**/**.js',
             './src/App.js'],
@@ -76,7 +78,10 @@ module.exports = {
           '0%': {backgroundSize: '100%'},
           '50%': {backgroundSize: '105%'},
           '100%': {backgroundSize: '100%'},
-        }
+        },
+        // articleFill: {
+        //   '0%': {height: ''}
+        // }
 
         
       }),

@@ -88,35 +88,37 @@ const Home = () => {
   </div>
 
   {/* Section 2: Benefits of a trial */}
-  <div class="md:h-96 lg:h-full flex flex-col md:flex-row mx-auto gap-4 py-3" id='section2'>
+  <div class="md:h-96 lg:h-[32rem] flex flex-col md:flex-row mx-auto gap-4 py-3" id='section2'>
 
     <div className='w-screen bg-[#1C5367]/95 flex flex-col h-full items-center pt-8 pb-2'> 
       {/* Center text in a div */}
       <div className='max-w-[84rem] flex flex-col h-full items-center justify-center px-2'>
-        <div className='h-full w-full p-4 flex flex-col items-center justify-center px-8'>
-          <h1 className='text-center text-[#C4A962] sm:text-3xl lg:text-5xl font-extrabold pb-6 pt-2 tracking-wide'>
+          <h1 className='text-center text-[#C4A962] sm:text-3xl lg:text-5xl font-extrabold pb-6 pt-2 tracking-wide underline underline-offset-2'>
             Clinical Trial Benefits
           </h1>
+        <div className='h-full w-full p-4 flex flex-col items-center justify-center px-8'>
           {/* benfits section */}
           <div class='flex flex-row w-full pb-8'>
             <div class='basis-1/2'>
-              <ul class='list-disc text-[#C4A962] text-xl'>
-                <li class='pb-4'>You may have the chance to help others get a better treatment for their health problems in the future</li>
-                <li class='text-white/80 pb-4'>Treatment from experts</li>
-                <li class='pb-4'>Free or low-cost treatment</li>
+              <ul class='list-disc text-[#C4A962] text-2xl'>
                 <li class='pb-4 text-white/80'>You may be able to get information about support groups and resources</li>
+                <li class='pb-4'>Free or low-cost treatment</li>
+                <li class='text-white/80 pb-4'>Treatment from experts</li>
+                <li class='pb-4'>You play a more active role in your own health care</li>
               </ul>
             </div>
-            <div class='basis-1/2 pl-6'>
-              <ul class='list-disc text-[#C4A962] text-lg'>
+            <div class='basis-1/2 pl-10'>
+              <ul class='list-disc text-[#C4A962] text-2xl'>
                 <li class='text-white/80 pb-4'>Activating your care</li>
-                <li class='pb-4'>ANOTHER REASON</li>
-                <li class='text-white/80 pb-4'>ANOTHER REASON 2</li>
+                <li class='pb-4'>You may have the chance to help others get a better treatment for their health problems in the future</li>
+                <li class='text-white/80 pb-4'>Researchers may provide you with medical care and more frequent health check-ups</li>
+                {/* <li class='pb-4'>ANOTHER REASON</li>
+                <li class='text-white/80 pb-4'>ANOTHER REASON 2</li> */}
               </ul>
             </div>
 
           </div>
-          <p className='text-[#C4A962] opacity-80'>Interested in finding more about infomration about the benefits, risks, and safety of participating in a clinical trial? <a href='https://www.nia.nih.gov/health/clinical-trials-benefits-risks-and-safety' class='hover:underline'>Learn more about clinical trials </a></p>
+          <p className='text-[#C4A962] opacity-80 pt-8'>Interested in finding more about infomration about the benefits, risks, and safety of participating in a clinical trial? <a href='https://www.nia.nih.gov/health/clinical-trials-benefits-risks-and-safety' class='hover:text-[#eecc76] underline' target="_blank">Learn more about clinical trials </a></p>
         </div>
       </div>
     </div>
@@ -124,7 +126,7 @@ const Home = () => {
   </div>
 
   {/* Section 3: Supporting Social Proof and Graphic*/}
-  <div class="md:h-[40rem] md:max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md bg-white" id='section3'>
+  {/* <div class="md:h-[40rem] md:max-h-[40rem] w-screen max-w-[84rem] mx-auto bg-cover bg-center rounded-md bg-white" id='section3'>
     <div className='w-full h-full flex flex-col md:flex-row items-center justify-center rounded-md gap-4'>
 
       <div id='left' class='basis-1/2 h-full w-full px-2 md:pr-14'>
@@ -148,14 +150,11 @@ const Home = () => {
           <p class='text-4xl text-bold text-white tracking-wide text-center leading-relaxed px-6'>
           Number 1 Clinical Trial Research Group in Texas.[Graphic]
           </p>
-          {/* <p>
-            -The New York Etc
-          </p> */}
         </div>
       </div>
 
     </div>
-  </div>
+  </div> */}
 
   {/* Section 4: More articles to read*/}
   <div class="mx-auto w-max flex flex-col justify-center items-center border-b-[3px] border-[#C4A962]" id='section4'>
